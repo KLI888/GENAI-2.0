@@ -1,0 +1,17 @@
+# Tested versions. The lower bounds in earlier revisions allowed untested releases.
+# Regenerate with: pip freeze after a verified install.
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+pydantic-settings==2.16.1
+chromadb==1.5.9
+python-multipart==0.0.32
+httpx==0.28.1
+beautifulsoup4==4.15.0
+pypdf==6.21.2
+pypdfium2==5.14.0
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+google-genai==2.33.0
+groq==1.7.0
+apscheduler==3.11.3

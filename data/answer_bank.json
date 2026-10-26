@@ -1,0 +1,941 @@
+{
+  "_about": "Answer-level gold set. Fill must_include with verified facts from the official PCCOE page (one group per fact; each group lists acceptable spellings, any one of which must appear). Items with an empty must_include are reported as unscored, never as passes.",
+  "items": [
+    {
+      "id": "profile-001-en",
+      "category": "College profile and campus",
+      "language": "en",
+      "question": "What is PCCOE's official address and accreditation status?",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "profile-001-hi",
+      "category": "College profile and campus",
+      "language": "hi",
+      "question": "PCCOE ka official address aur accreditation kya hai?",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "profile-001-mr",
+      "category": "College profile and campus",
+      "language": "mr",
+      "question": "PCCOE cha adhikrut patta ani accreditation kay aahe?",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "profile-001-hinglish",
+      "category": "College profile and campus",
+      "language": "hinglish",
+      "question": "PCCOE ka address aur accreditation batao",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "admissions-001-en",
+      "category": "Admissions",
+      "language": "en",
+      "question": "How can I get admission to first-year engineering at PCCOE?",
+      "expected_source_pattern": "https://www.pccoepune.com/admission*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "admissions-001-hi",
+      "category": "Admissions",
+      "language": "hi",
+      "question": "PCCOE mein first year engineering admission kaise milega?",
+      "expected_source_pattern": "https://www.pccoepune.com/admission*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "admissions-001-mr",
+      "category": "Admissions",
+      "language": "mr",
+      "question": "PCCOE madhye first year engineering la admission kasa milel?",
+      "expected_source_pattern": "https://www.pccoepune.com/admission*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "admissions-001-hinglish",
+      "category": "Admissions",
+      "language": "hinglish",
+      "question": "PCCOE FE admission process kya hai?",
+      "expected_source_pattern": "https://www.pccoepune.com/admission*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "programs-001-en",
+      "category": "Programs and departments",
+      "language": "en",
+      "question": "Which undergraduate and postgraduate programs does PCCOE offer?",
+      "expected_source_pattern": "https://*.pccoepune.com/*program*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "programs-001-hi",
+      "category": "Programs and departments",
+      "language": "hi",
+      "question": "PCCOE mein kaunse UG aur PG courses hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*program*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "programs-001-mr",
+      "category": "Programs and departments",
+      "language": "mr",
+      "question": "PCCOE madhye konte UG ani PG courses aahet?",
+      "expected_source_pattern": "https://*.pccoepune.com/*program*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "programs-001-hinglish",
+      "category": "Programs and departments",
+      "language": "hinglish",
+      "question": "PCCOE me UG PG programs aur branches kaunse hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*program*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fees-001-en",
+      "category": "Tuition and fees",
+      "language": "en",
+      "question": "What is the tuition fee for first-year engineering this academic year?",
+      "expected_source_pattern": "https://www.pccoepune.com/*fee*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fees-001-hi",
+      "category": "Tuition and fees",
+      "language": "hi",
+      "question": "Is academic year first year engineering ki fees kitni hai?",
+      "expected_source_pattern": "https://www.pccoepune.com/*fee*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fees-001-mr",
+      "category": "Tuition and fees",
+      "language": "mr",
+      "question": "Ya academic year madhye FE chi fee kiti aahe?",
+      "expected_source_pattern": "https://www.pccoepune.com/*fee*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fees-001-hinglish",
+      "category": "Tuition and fees",
+      "language": "hinglish",
+      "question": "Current year FE fees kitni hai PCCOE me?",
+      "expected_source_pattern": "https://www.pccoepune.com/*fee*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "scholarships-001-en",
+      "category": "Scholarships and financial aid",
+      "language": "en",
+      "question": "What scholarship and TFWS options are available, and what documents are needed?",
+      "expected_source_pattern": "https://*.pccoepune.com/*scholar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "scholarships-001-hi",
+      "category": "Scholarships and financial aid",
+      "language": "hi",
+      "question": "Scholarship ya TFWS ke liye kaunse documents chahiye?",
+      "expected_source_pattern": "https://*.pccoepune.com/*scholar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "scholarships-001-mr",
+      "category": "Scholarships and financial aid",
+      "language": "mr",
+      "question": "Scholarship ani TFWS sathi konti kagadpatre lagtat?",
+      "expected_source_pattern": "https://*.pccoepune.com/*scholar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "scholarships-001-hinglish",
+      "category": "Scholarships and financial aid",
+      "language": "hinglish",
+      "question": "EBC TFWS scholarship ke docs kya chahiye?",
+      "expected_source_pattern": "https://*.pccoepune.com/*scholar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "calendar-001-en",
+      "category": "Academic calendars and schedules",
+      "language": "en",
+      "question": "Where is the latest academic calendar and when does the semester start?",
+      "expected_source_pattern": "https://*.pccoepune.com/*calendar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "calendar-001-hi",
+      "category": "Academic calendars and schedules",
+      "language": "hi",
+      "question": "Latest academic calendar kahan hai aur semester kab start hota hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*calendar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "calendar-001-mr",
+      "category": "Academic calendars and schedules",
+      "language": "mr",
+      "question": "Latest academic calendar kuthe aahe ani semester kadhi suru hoto?",
+      "expected_source_pattern": "https://*.pccoepune.com/*calendar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "calendar-001-hinglish",
+      "category": "Academic calendars and schedules",
+      "language": "hinglish",
+      "question": "Naya academic calendar aur semester start date batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*calendar*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "regulations-001-en",
+      "category": "Academic regulations and attendance",
+      "language": "en",
+      "question": "What are the attendance and semester progression rules?",
+      "expected_source_pattern": "https://*.pccoepune.com/*regulation*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "regulations-001-hi",
+      "category": "Academic regulations and attendance",
+      "language": "hi",
+      "question": "Attendance aur semester promotion ke rules kya hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*regulation*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "regulations-001-mr",
+      "category": "Academic regulations and attendance",
+      "language": "mr",
+      "question": "Attendance ani semester progression che niyam kay aahet?",
+      "expected_source_pattern": "https://*.pccoepune.com/*regulation*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "regulations-001-hinglish",
+      "category": "Academic regulations and attendance",
+      "language": "hinglish",
+      "question": "Attendance criteria and backlog progression rules kya hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*regulation*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "exams-001-en",
+      "category": "Examinations and assessment",
+      "language": "en",
+      "question": "Where is the latest exam timetable, and how do I apply for revaluation?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "exams-001-hi",
+      "category": "Examinations and assessment",
+      "language": "hi",
+      "question": "Latest exam timetable kahan milega aur revaluation kaise kare?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "exams-001-mr",
+      "category": "Examinations and assessment",
+      "language": "mr",
+      "question": "Latest exam timetable kuthe milel ani revaluation sathi kay karave?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "exams-001-hinglish",
+      "category": "Examinations and assessment",
+      "language": "hinglish",
+      "question": "Exam timetable link aur revaluation process do",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "syllabus-001-en",
+      "category": "Syllabus and curriculum",
+      "language": "en",
+      "question": "Can you give me the Computer Engineering third-year syllabus?",
+      "expected_source_pattern": "https://computer.pccoepune.com/*syllabus*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "syllabus-001-hi",
+      "category": "Syllabus and curriculum",
+      "language": "hi",
+      "question": "Computer Engineering third year ka syllabus do.",
+      "expected_source_pattern": "https://computer.pccoepune.com/*syllabus*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "syllabus-001-mr",
+      "category": "Syllabus and curriculum",
+      "language": "mr",
+      "question": "Computer Engineering third year cha syllabus dya.",
+      "expected_source_pattern": "https://computer.pccoepune.com/*syllabus*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "syllabus-001-hinglish",
+      "category": "Syllabus and curriculum",
+      "language": "hinglish",
+      "question": "Computer department ka TE syllabus bhejo",
+      "expected_source_pattern": "https://computer.pccoepune.com/*syllabus*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "faculty-001-en",
+      "category": "Faculty and official contacts",
+      "language": "en",
+      "question": "Who is the current HOD of Computer Engineering, and what is the official department contact?",
+      "expected_source_pattern": "https://*.pccoepune.com/*faculty*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "faculty-001-hi",
+      "category": "Faculty and official contacts",
+      "language": "hi",
+      "question": "Computer department ke current HOD kaun hain aur official contact kya hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*faculty*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "faculty-001-mr",
+      "category": "Faculty and official contacts",
+      "language": "mr",
+      "question": "Computer department che current HOD kon aahet ani office contact kay?",
+      "expected_source_pattern": "https://*.pccoepune.com/*faculty*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "faculty-001-hinglish",
+      "category": "Faculty and official contacts",
+      "language": "hinglish",
+      "question": "Computer dept HOD aur office email batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*faculty*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "placements-001-en",
+      "category": "Placements and careers",
+      "language": "en",
+      "question": "What are the placement eligibility rules and how do I find current internship notices?",
+      "expected_source_pattern": "https://*.pccoepune.com/*placement*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "placements-001-hi",
+      "category": "Placements and careers",
+      "language": "hi",
+      "question": "Placement eligibility kya hai aur internship notices kahan milenge?",
+      "expected_source_pattern": "https://*.pccoepune.com/*placement*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "placements-001-mr",
+      "category": "Placements and careers",
+      "language": "mr",
+      "question": "Placement eligibility kay aahe ani internship notices kuthe miltil?",
+      "expected_source_pattern": "https://*.pccoepune.com/*placement*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "placements-001-hinglish",
+      "category": "Placements and careers",
+      "language": "hinglish",
+      "question": "Placement criteria aur latest internship updates do",
+      "expected_source_pattern": "https://*.pccoepune.com/*placement*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "higher-studies-001-en",
+      "category": "Higher studies and research guidance",
+      "language": "en",
+      "question": "Does PCCOE publish guidance for GATE, GRE, CAT or overseas study?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "higher-studies-001-hi",
+      "category": "Higher studies and research guidance",
+      "language": "hi",
+      "question": "GATE GRE ya higher studies ke liye PCCOE guidance hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "higher-studies-001-mr",
+      "category": "Higher studies and research guidance",
+      "language": "mr",
+      "question": "GATE GRE kiwa higher studies sathi PCCOE guidance aahe ka?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "higher-studies-001-hinglish",
+      "category": "Higher studies and research guidance",
+      "language": "hinglish",
+      "question": "GATE GRE CAT prep ka official support kya hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "hostel-001-en",
+      "category": "Hostel and accommodation",
+      "language": "en",
+      "question": "How do I apply for hostel accommodation, and where are the hostel fees and rules?",
+      "expected_source_pattern": "https://*.pccoepune.com/*hostel*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "hostel-001-hi",
+      "category": "Hostel and accommodation",
+      "language": "hi",
+      "question": "Hostel admission ke liye apply kaise karu aur fees/rules kahan hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*hostel*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "hostel-001-mr",
+      "category": "Hostel and accommodation",
+      "language": "mr",
+      "question": "Hostel sathi arj kasa karaycha ani fees/niyam kuthe aahet?",
+      "expected_source_pattern": "https://*.pccoepune.com/*hostel*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "hostel-001-hinglish",
+      "category": "Hostel and accommodation",
+      "language": "hinglish",
+      "question": "Hostel application process, fees and rules batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*hostel*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "facilities-001-en",
+      "category": "Campus facilities",
+      "language": "en",
+      "question": "What library, lab, Wi-Fi and medical facilities are available on campus?",
+      "expected_source_pattern": "https://www.pccoepune.com/*facility*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "facilities-001-hi",
+      "category": "Campus facilities",
+      "language": "hi",
+      "question": "Campus mein library lab Wi-Fi aur medical facilities kya hain?",
+      "expected_source_pattern": "https://www.pccoepune.com/*facility*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "facilities-001-mr",
+      "category": "Campus facilities",
+      "language": "mr",
+      "question": "Campus var library lab Wi-Fi ani medical facilities konte aahet?",
+      "expected_source_pattern": "https://www.pccoepune.com/*facility*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "facilities-001-hinglish",
+      "category": "Campus facilities",
+      "language": "hinglish",
+      "question": "PCCOE campus facilities list dikhao",
+      "expected_source_pattern": "https://www.pccoepune.com/*facility*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "activities-001-en",
+      "category": "Student activities and events",
+      "language": "en",
+      "question": "Which technical clubs and student events are active this year?",
+      "expected_source_pattern": "https://*.pccoepune.com/*club*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "activities-001-hi",
+      "category": "Student activities and events",
+      "language": "hi",
+      "question": "Is saal kaunse technical clubs aur student events active hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*club*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "activities-001-mr",
+      "category": "Student activities and events",
+      "language": "mr",
+      "question": "Ya varshi konte technical clubs ani student events aahet?",
+      "expected_source_pattern": "https://*.pccoepune.com/*club*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "activities-001-hinglish",
+      "category": "Student activities and events",
+      "language": "hinglish",
+      "question": "Current year ke clubs workshops aur hackathons batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*club*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "welfare-001-en",
+      "category": "Student welfare and safety",
+      "language": "en",
+      "question": "How can a student report a grievance or access anti-ragging support?",
+      "expected_source_pattern": "https://*.pccoepune.com/*grievance*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "welfare-001-hi",
+      "category": "Student welfare and safety",
+      "language": "hi",
+      "question": "Student grievance ya anti-ragging complaint kaise kare?",
+      "expected_source_pattern": "https://*.pccoepune.com/*grievance*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "welfare-001-mr",
+      "category": "Student welfare and safety",
+      "language": "mr",
+      "question": "Student grievance kiwa anti-ragging complaint kuthe karavi?",
+      "expected_source_pattern": "https://*.pccoepune.com/*grievance*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "welfare-001-hinglish",
+      "category": "Student welfare and safety",
+      "language": "hinglish",
+      "question": "Complaint aur anti-ragging help ka official channel kya hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*grievance*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "certificates-001-en",
+      "category": "Certificates and administration",
+      "language": "en",
+      "question": "How do I request an official transcript or correct a document?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "certificates-001-hi",
+      "category": "Certificates and administration",
+      "language": "hi",
+      "question": "Official transcript kaise milega ya document correction kaise karu?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "certificates-001-mr",
+      "category": "Certificates and administration",
+      "language": "mr",
+      "question": "Official transcript kasa milto kiwa document correction kasa karaycha?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "certificates-001-hinglish",
+      "category": "Certificates and administration",
+      "language": "hinglish",
+      "question": "Transcript aur certificate correction process batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "erp-001-en",
+      "category": "ERP and student services",
+      "language": "en",
+      "question": "Where is the student ERP portal, and what should I do if I cannot log in?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "erp-001-hi",
+      "category": "ERP and student services",
+      "language": "hi",
+      "question": "Student ERP portal kahan hai aur login na ho to kya kare?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "erp-001-mr",
+      "category": "ERP and student services",
+      "language": "mr",
+      "question": "Student ERP portal kuthe aahe ani login hot nasel tar kay karave?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "erp-001-hinglish",
+      "category": "ERP and student services",
+      "language": "hinglish",
+      "question": "ERP login issue ka official solution batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "projects-001-en",
+      "category": "Research, projects and innovation",
+      "language": "en",
+      "question": "What are the final-year project guidelines and innovation or incubation resources?",
+      "expected_source_pattern": "https://*.pccoepune.com/*project*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "projects-001-hi",
+      "category": "Research, projects and innovation",
+      "language": "hi",
+      "question": "Final year project guidelines aur incubation resources kya hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*project*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "projects-001-mr",
+      "category": "Research, projects and innovation",
+      "language": "mr",
+      "question": "Final year project guidelines ani incubation resources konte aahet?",
+      "expected_source_pattern": "https://*.pccoepune.com/*project*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "projects-001-hinglish",
+      "category": "Research, projects and innovation",
+      "language": "hinglish",
+      "question": "Project rules aur incubation support ka info do",
+      "expected_source_pattern": "https://*.pccoepune.com/*project*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "international-001-en",
+      "category": "International relations",
+      "language": "en",
+      "question": "Does PCCOE have official international exchange or overseas collaboration opportunities?",
+      "expected_source_pattern": "https://*.pccoepune.com/*international*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "international-001-hi",
+      "category": "International relations",
+      "language": "hi",
+      "question": "PCCOE mein international exchange ya overseas programs hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*international*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "international-001-mr",
+      "category": "International relations",
+      "language": "mr",
+      "question": "PCCOE madhye international exchange kiwa overseas programs aahet ka?",
+      "expected_source_pattern": "https://*.pccoepune.com/*international*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "international-001-hinglish",
+      "category": "International relations",
+      "language": "hinglish",
+      "question": "Abroad exchange opportunities ka official info do",
+      "expected_source_pattern": "https://*.pccoepune.com/*international*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "alumni-001-en",
+      "category": "Alumni",
+      "language": "en",
+      "question": "How can I connect with the PCCOE alumni network or attend alumni events?",
+      "expected_source_pattern": "https://*.pccoepune.com/*alumni*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "alumni-001-hi",
+      "category": "Alumni",
+      "language": "hi",
+      "question": "PCCOE alumni network se kaise connect karu?",
+      "expected_source_pattern": "https://*.pccoepune.com/*alumni*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "alumni-001-mr",
+      "category": "Alumni",
+      "language": "mr",
+      "question": "PCCOE alumni network shi kasa connect karaycha?",
+      "expected_source_pattern": "https://*.pccoepune.com/*alumni*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "alumni-001-hinglish",
+      "category": "Alumni",
+      "language": "hinglish",
+      "question": "Alumni group aur upcoming events ka link do",
+      "expected_source_pattern": "https://*.pccoepune.com/*alumni*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "transport-001-en",
+      "category": "Transportation and campus directions",
+      "language": "en",
+      "question": "How do I reach the PCCOE campus, and what are the visitor instructions?",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "transport-001-hi",
+      "category": "Transportation and campus directions",
+      "language": "hi",
+      "question": "PCCOE campus kaise pahuchu aur visitor rules kya hain?",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "transport-001-mr",
+      "category": "Transportation and campus directions",
+      "language": "mr",
+      "question": "PCCOE campus la kasa jaycha ani visitor instructions kay aahet?",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "transport-001-hinglish",
+      "category": "Transportation and campus directions",
+      "language": "hinglish",
+      "question": "Campus location route aur visitor entry batao",
+      "expected_source_pattern": "https://www.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "notices-001-en",
+      "category": "Notices and circulars",
+      "language": "en",
+      "question": "Show me the newest notice for my department and explain its deadline.",
+      "expected_source_pattern": "https://*.pccoepune.com/*notice*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "notices-001-hi",
+      "category": "Notices and circulars",
+      "language": "hi",
+      "question": "Mere department ka latest notice aur deadline batao.",
+      "expected_source_pattern": "https://*.pccoepune.com/*notice*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "notices-001-mr",
+      "category": "Notices and circulars",
+      "language": "mr",
+      "question": "Majhya department cha latest notice ani deadline sanga.",
+      "expected_source_pattern": "https://*.pccoepune.com/*notice*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "notices-001-hinglish",
+      "category": "Notices and circulars",
+      "language": "hinglish",
+      "question": "Mere dept ka latest circular aur last date dikhao",
+      "expected_source_pattern": "https://*.pccoepune.com/*notice*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "parents-001-en",
+      "category": "Parent and guardian information",
+      "language": "en",
+      "question": "Where can parents find official communication and campus visit information?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "parents-001-hi",
+      "category": "Parent and guardian information",
+      "language": "hi",
+      "question": "Parents ke liye official updates aur campus visit info kahan hai?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "parents-001-mr",
+      "category": "Parent and guardian information",
+      "language": "mr",
+      "question": "Palakansathi official updates ani campus visit mahiti kuthe aahe?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "parents-001-hinglish",
+      "category": "Parent and guardian information",
+      "language": "hinglish",
+      "question": "Parents ke contact aur visit guidelines do",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "graduation-001-en",
+      "category": "Graduation and completion procedures",
+      "language": "en",
+      "question": "What steps should final-year students complete for internship completion, graduation and degree documents?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "graduation-001-hi",
+      "category": "Graduation and completion procedures",
+      "language": "hi",
+      "question": "Final year internship complete aur degree documents ke steps kya hain?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "graduation-001-mr",
+      "category": "Graduation and completion procedures",
+      "language": "mr",
+      "question": "Final year internship completion ani degree documents sathi kay steps aahet?",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "graduation-001-hinglish",
+      "category": "Graduation and completion procedures",
+      "language": "hinglish",
+      "question": "Final year completion, internship aur degree process batao",
+      "expected_source_pattern": "https://*.pccoepune.com/*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fallback-001-en",
+      "category": "Unanswered questions and escalation",
+      "language": "en",
+      "question": "I found two different exam dates. Which official source should I follow?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fallback-001-hi",
+      "category": "Unanswered questions and escalation",
+      "language": "hi",
+      "question": "Exam ki do dates dikh rahi hain, kaunsi follow karu?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fallback-001-mr",
+      "category": "Unanswered questions and escalation",
+      "language": "mr",
+      "question": "Exam chya don dates disat aahet, konti yogya aahe?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    },
+    {
+      "id": "fallback-001-hinglish",
+      "category": "Unanswered questions and escalation",
+      "language": "hinglish",
+      "question": "Do official exam dates conflict kar rahi hain, kya karu?",
+      "expected_source_pattern": "https://www.pccoepune.com/*exam*",
+      "must_include": [],
+      "must_not_include": []
+    }
+  ]
+}
